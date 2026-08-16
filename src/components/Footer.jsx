@@ -1,4 +1,4 @@
-import { Logo, Twitter, Facebook, LinkedIn } from "./Icons";
+import { Logo, Twitter, Facebook, LinkedIn } from "./Icons.jsx";
 
 export default function Footer() {
   return (

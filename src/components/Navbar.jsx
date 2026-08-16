@@ -1,4 +1,4 @@
-import { Logo, ArrowUpRight } from "./Icons";
+import { Logo, ArrowUpRight } from "./Icons.jsx";
 
 export default function Navbar() {
   return (
@@ -11,7 +11,7 @@ export default function Navbar() {
 
         <nav className="hidden md:flex items-center gap-7 text-sm text-ink-700">
           <a href="#datasets" className="hover:text-ink-900 transition">Datasets</a>
-          <a href="#models" className="hover:text-ink-900 transition">Models</a>
+          <a href="#naath-ai" className="hover:text-ink-900 transition">Naath AI</a>
           <a href="#initiatives" className="hover:text-ink-900 transition">Initiatives</a>
           <a href="#about" className="hover:text-ink-900 transition">About Us</a>
         </nav>

@@ -1,4 +1,4 @@
-import { Brain, Server, Building, Heart, ArrowRight } from "./Icons";
+import { Brain, Server, Building, Heart, ArrowRight } from "./Icons.jsx";
 
 const items = [
   {

@@ -1,4 +1,4 @@
-import { ArrowUpRight, Github } from "./Icons";
+import { ArrowUpRight, Github } from "./Icons.jsx";
 
 export default function ContributeCTA() {
   return (

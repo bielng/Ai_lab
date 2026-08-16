@@ -1,13 +1,14 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Translator from "./components/Translator";
-import TrustBar from "./components/TrustBar";
-import PreserveSection from "./components/PreserveSection";
-import WorkSection from "./components/WorkSection";
-import LanguagesBand from "./components/LanguagesBand";
-import AudienceSection from "./components/AudienceSection";
-import ContributeCTA from "./components/ContributeCTA";
-import Footer from "./components/Footer";
+import Navbar from "./components/Navbar.jsx";
+import Hero from "./components/Hero.jsx";
+import Translator from "./components/Translator.jsx";
+import NaathChat from "./components/NaathChat.jsx";
+import TrustBar from "./components/TrustBar.jsx";
+import PreserveSection from "./components/PreserveSection.jsx";
+import WorkSection from "./components/WorkSection.jsx";
+import LanguagesBand from "./components/LanguagesBand.jsx";
+import AudienceSection from "./components/AudienceSection.jsx";
+import ContributeCTA from "./components/ContributeCTA.jsx";
+import Footer from "./components/Footer.jsx";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <main>
         <Hero />
         <Translator />
+        <NaathChat />
         <TrustBar />
         <PreserveSection />
         <WorkSection />
