@@ -46,17 +46,15 @@ async function loadKnowledgeBase() {
     systemPrompt,
     grammarRules,
   ] = await Promise.all([
-    import("./unified_dictionary.json"),
-    import("./english_nuer_indexed.json"),
-    import("./examples.json"),
-    import("./elb_vocabulary.json"),
-    import("./elb_structures.json"),
-    import("./elb_conversation.json"),
-    import("./elb_grammar.json"),
-    import("./asb_corpus.json"),
-    import("./bible_index.min.json"),
-    import("./system_prompt.md?raw"),
-    import("./THOK_NATH_GRAMMAR_RULES.md?raw"),
+    import("./dataset/unified_dictionary.json"),
+    import("./dataset/english_nuer_indexed.json"),
+    import("./dataset/examples.json"),
+    import("./dataset/elb_vocabulary.json"),
+    import("./dataset/elb_structures.json"),
+    import("./dataset/elb_conversation.json"),
+    import("./dataset/elb_grammar.json"),
+    import("./dataset/asb_corpus.json"),
+    import("./dataset/bible_index.min.json"),
   ]);
 
   const records = [
