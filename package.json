@@ -1,7 +1,7 @@
 {
-  "name": "dayom-lab",
+  "name": "dayom-ai-studio",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,8 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@gradio/client": "^2.4.0",
     "@tailwindcss/vite": "^4.3.3",
-    "css": "^3.0.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "tailwindcss": "^4.3.3"

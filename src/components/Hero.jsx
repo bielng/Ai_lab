@@ -15,8 +15,8 @@ export default function Hero() {
           models for under-represented languages.
         </p>
         <div className="mt-9 flex items-center justify-center gap-3 flex-wrap">
-          <a href="#naath-ai" className="btn-primary">
-            Try Naath AI <ArrowUpRight />
+          <a href="#/studio" className="btn-primary">
+            Translate for free <ArrowUpRight />
           </a>
           <a href="#about" className="btn-ghost">
             Learn More <ArrowRight />

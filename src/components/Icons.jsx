@@ -1,4 +1,5 @@
 // Minimal inline SVG icon set — no extra dependency needed.
+// Base set carried over from NAATH-ARCHIVE/Ai_lab; studio-only icons added below in the same style.
 
 export const ArrowUpRight = (p) => (
   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round" {...p}>
@@ -9,6 +10,12 @@ export const ArrowUpRight = (p) => (
 export const ArrowRight = (p) => (
   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" {...p}>
     <path d="M5 12h14" /><path d="m12 5 7 7-7 7" />
+  </svg>
+);
+
+export const ArrowLeft = (p) => (
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" {...p}>
+    <path d="M19 12H5" /><path d="m12 19-7-7 7-7" />
   </svg>
 );
 
@@ -112,5 +119,56 @@ export const Logo = (p) => (
   <svg width="22" height="22" viewBox="0 0 32 32" fill="none" {...p}>
     <rect x="1" y="1" width="30" height="30" rx="8" fill="#F8D980" />
     <path d="M9 9h4.6c2.6 0 4.4 1.5 4.4 3.8 0 1.7-1 2.9-2.5 3.4l3 6.8h-2.7l-2.7-6.3h-2.1V23H9V9zm2.4 5.7h2.1c1.4 0 2.2-.7 2.2-1.9s-.8-1.9-2.2-1.9h-2.1v3.8z" fill="#0B1220" />
+  </svg>
+);
+
+/* ---------- Studio-only additions (same minimal stroke style) ---------- */
+
+export const Swap = (p) => (
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" {...p}>
+    <path d="M17 1l4 4-4 4" /><path d="M3 11V9a4 4 0 0 1 4-4h14" />
+    <path d="M7 23l-4-4 4-4" /><path d="M21 13v2a4 4 0 0 1-4 4H3" />
+  </svg>
+);
+
+export const Copy = (p) => (
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" {...p}>
+    <rect x="9" y="9" width="12" height="12" rx="2" /><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+  </svg>
+);
+
+export const Play = (p) => (
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" {...p}>
+    <path d="M8 5v14l11-7z" />
+  </svg>
+);
+
+export const Pause = (p) => (
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" {...p}>
+    <rect x="6" y="5" width="4" height="14" rx="1" /><rect x="14" y="5" width="4" height="14" rx="1" />
+  </svg>
+);
+
+export const Download = (p) => (
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" {...p}>
+    <path d="M12 3v12" /><path d="m7 10 5 5 5-5" /><path d="M5 21h14" />
+  </svg>
+);
+
+export const AlertCircle = (p) => (
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" {...p}>
+    <circle cx="12" cy="12" r="10" /><path d="M12 8v5" /><path d="M12 16h.01" />
+  </svg>
+);
+
+export const Send = (p) => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round" {...p}>
+    <path d="M12 19V5" /><path d="m5 12 7-7 7 7" />
+  </svg>
+);
+
+export const Home = (p) => (
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" {...p}>
+    <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /><path d="M9 22V12h6v10" />
   </svg>
 );
